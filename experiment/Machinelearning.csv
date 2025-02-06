@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+Who coined the term 'machine learning' in 1959?,a: Walter Pitts | b: Arthur Samuel | c: Warren McCulloch | d: Donald Hebb,b
+What was the first machine learning model created in the 1950s?,a: A program for playing checkers | b: A neural network for recognizing characters | c: A learning machine for analyzing sonar signals | d: A speech recognition system,a
+Which of the following is NOT a modern-day objective of machine learning?,a: Classifying data | b: Making predictions | c: Generating new data | d: Solving complex problems,c
+"According to Tom M. Mitchell's definition, what does a computer program need to do to learn?",a: Improve its performance on a task with experience | b: Understand the underlying concepts of the task | c: Be able to explain its decisions | d: Mimic human behavior,a
+Which of the following is an example of a supervised learning algorithm?,a: A neural network trained on a dataset of labeled data | b: A decision tree that splits data based on its features | c: A clustering algorithm that groups similar data points together | d: An unsupervised learning algorithm,a
