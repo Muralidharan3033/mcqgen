@@ -4,15 +4,16 @@ import pandas as pd
 import traceback
 from src.mcqgenerator.utils import read_file
 
+
 from src.mcqgenerator.logger import logging
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
-
-# Set your API key directly
-api_key = "AIzaSyDS-WcJrBSv46pHKuVQflvVjLFoayBvdQI"
+from dotenv import load_dotenv
+load_dotenv()
+api_key = os.getenv("API_KEY")
 
 # Initialize Gemini LLM
 llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=api_key)
