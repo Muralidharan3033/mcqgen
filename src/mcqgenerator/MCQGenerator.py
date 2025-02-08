@@ -13,10 +13,11 @@ from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 from dotenv import load_dotenv
 load_dotenv()
-api_key = os.getenv("API_KEY")
+my_key = os.getenv("api_key")
 
 # Initialize Gemini LLM
-llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=api_key)
+llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=my_key)
+print(my_key)
 
 TEMPLATE = """
 Text:{text}
