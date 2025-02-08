@@ -2,3 +2,5 @@ env
 .env
 tempCodeRunnerFile.py
 logs
+mcqgenrator.egg-info
+__pycache__
