@@ -67,4 +67,4 @@ with st.form("user_inputs"):
                     #Extract the quiz data from the response
                     quiz=response.get("quiz", None)
                     if quiz is not None:
-                        st.write(response.get("quiz"))
+                        st.write(response)
