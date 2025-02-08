@@ -21,7 +21,7 @@ with open(r"D:\mcqgen\Response.json", "r") as file:
 
 
 #creating a title for the app
-st.title("MCQs Creator Application with LangChain 🦜⛓️")
+st.title("MCQs Creator Application with AI 🦜⛓️")
 
 #Create a form using st.form
 with st.form("user_inputs"):
